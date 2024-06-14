@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24144C812C1CDB2400401867 /* PictureDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24144C802C1CDB2400401867 /* PictureDiaryView.swift */; };
 		38EDBF632C1CC73C00F15D11 /* WorkLifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDBF622C1CC73C00F15D11 /* WorkLifeApp.swift */; };
 		38EDBF652C1CC73C00F15D11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDBF642C1CC73C00F15D11 /* ContentView.swift */; };
 		38EDBF672C1CC73D00F15D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EDBF662C1CC73D00F15D11 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24144C802C1CDB2400401867 /* PictureDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDiaryView.swift; sourceTree = "<group>"; };
 		38EDBF5F2C1CC73C00F15D11 /* WorkLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EDBF622C1CC73C00F15D11 /* WorkLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLifeApp.swift; sourceTree = "<group>"; };
 		38EDBF642C1CC73C00F15D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24144C7F2C1CDB1100401867 /* PictureDiaryView */ = {
+			isa = PBXGroup;
+			children = (
+				24144C802C1CDB2400401867 /* PictureDiaryView.swift */,
+			);
+			path = PictureDiaryView;
+			sourceTree = "<group>";
+		};
 		38EDBF562C1CC73C00F15D11 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		38EDBF612C1CC73C00F15D11 /* WorkLife */ = {
 			isa = PBXGroup;
 			children = (
+				24144C7F2C1CDB1100401867 /* PictureDiaryView */,
 				38EDBF622C1CC73C00F15D11 /* WorkLifeApp.swift */,
 				38EDBF642C1CC73C00F15D11 /* ContentView.swift */,
 				38EDBF662C1CC73D00F15D11 /* Assets.xcassets */,
@@ -139,6 +150,7 @@
 			files = (
 				38EDBF652C1CC73C00F15D11 /* ContentView.swift in Sources */,
 				38EDBF632C1CC73C00F15D11 /* WorkLifeApp.swift in Sources */,
+				24144C812C1CDB2400401867 /* PictureDiaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +292,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +322,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
