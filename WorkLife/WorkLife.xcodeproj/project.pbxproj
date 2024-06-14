@@ -16,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		24144C802C1CDB2400401867 /* PictureDiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDiaryView.swift; sourceTree = "<group>"; };
+		24144C822C1D0EF100401867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		38EDBF5F2C1CC73C00F15D11 /* WorkLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38EDBF622C1CC73C00F15D11 /* WorkLifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLifeApp.swift; sourceTree = "<group>"; };
 		38EDBF642C1CC73C00F15D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		38EDBF612C1CC73C00F15D11 /* WorkLife */ = {
 			isa = PBXGroup;
 			children = (
+				24144C822C1D0EF100401867 /* Info.plist */,
 				24144C7F2C1CDB1100401867 /* PictureDiaryView */,
 				38EDBF622C1CC73C00F15D11 /* WorkLifeApp.swift */,
 				38EDBF642C1CC73C00F15D11 /* ContentView.swift */,
@@ -284,9 +286,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WorkLife/Preview Content\"";
-				DEVELOPMENT_TEAM = 89S2Z5S7CX;
+				DEVELOPMENT_TEAM = K3CQFPAA9A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkLife/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "이 앱은 사진을 찍기 위해 카메라 접근 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "이 앱은 사진을 선택하기 위해 사진 앨범 접근 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -314,9 +321,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WorkLife/Preview Content\"";
-				DEVELOPMENT_TEAM = 89S2Z5S7CX;
+				DEVELOPMENT_TEAM = K3CQFPAA9A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorkLife/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "이 앱은 사진을 찍기 위해 카메라 접근 권한이 필요합니다.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "이 앱은 사진을 선택하기 위해 사진 앨범 접근 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
