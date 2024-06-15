@@ -74,12 +74,9 @@
 		38EDBF612C1CC73C00F15D11 /* WorkLife */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				38EDBF712C1CD0D300F15D11 /* APIs */,
-=======
 				24144C822C1D0EF100401867 /* Info.plist */,
 				24144C7F2C1CDB1100401867 /* PictureDiaryView */,
->>>>>>> main
 				38EDBF622C1CC73C00F15D11 /* WorkLifeApp.swift */,
 				38EDBF642C1CC73C00F15D11 /* ContentView.swift */,
 				38EDBF662C1CC73D00F15D11 /* Assets.xcassets */,
@@ -186,11 +183,8 @@
 				38EDBF832C1CF31000F15D11 /* finishResponse.swift in Sources */,
 				38EDBF892C1D160F00F15D11 /* NetworkError.swift in Sources */,
 				38EDBF632C1CC73C00F15D11 /* WorkLifeApp.swift in Sources */,
-<<<<<<< HEAD
 				38EDBF852C1CF42900F15D11 /* DiaryInfo.swift in Sources */,
-=======
 				24144C812C1CDB2400401867 /* PictureDiaryView.swift in Sources */,
->>>>>>> main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
