@@ -16,6 +16,8 @@
 		DFFA98442C1D19ED00F14366 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA98432C1D19ED00F14366 /* LoginResponse.swift */; };
 		DFFA98462C1D19F700F14366 /* LoginRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA98452C1D19F700F14366 /* LoginRequestBody.swift */; };
 		DFFA98482C1D1A0200F14366 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA98472C1D1A0200F14366 /* LoginService.swift */; };
+		38EDBF8D2C1D1E5800F15D11 /* CommentWriteLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDBF8C2C1D1E5800F15D11 /* CommentWriteLayout.swift */; };
+		38EDBF8F2C1D1E7900F15D11 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDBF8E2C1D1E7900F15D11 /* CommentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		DFFA98432C1D19ED00F14366 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		DFFA98452C1D19F700F14366 /* LoginRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestBody.swift; sourceTree = "<group>"; };
 		DFFA98472C1D1A0200F14366 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		38EDBF8C2C1D1E5800F15D11 /* CommentWriteLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentWriteLayout.swift; sourceTree = "<group>"; };
+		38EDBF8E2C1D1E7900F15D11 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				DFA0CB102C1D206500E122B0 /* NetworkFile.swift */,
 				38EDBF662C1CC73D00F15D11 /* Assets.xcassets */,
 				38EDBF682C1CC73D00F15D11 /* Preview Content */,
+				38EDBF8C2C1D1E5800F15D11 /* CommentWriteLayout.swift */,
+				38EDBF8E2C1D1E7900F15D11 /* CommentView.swift */,
 			);
 			path = WorkLife;
 			sourceTree = "<group>";
@@ -169,6 +175,8 @@
 				DFFA98442C1D19ED00F14366 /* LoginResponse.swift in Sources */,
 				DFFA98462C1D19F700F14366 /* LoginRequestBody.swift in Sources */,
 				24144C812C1CDB2400401867 /* PictureDiaryView.swift in Sources */,
+				38EDBF8F2C1D1E7900F15D11 /* CommentView.swift in Sources */,
+				38EDBF8D2C1D1E5800F15D11 /* CommentWriteLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
