@@ -52,3 +52,4 @@ struct Comment: Identifiable, Hashable {
     let id = UUID()
     let text: String
 }
+

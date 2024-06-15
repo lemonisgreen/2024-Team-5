@@ -14,6 +14,7 @@
 		38EDBF6A2C1CC73D00F15D11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EDBF692C1CC73D00F15D11 /* Preview Assets.xcassets */; };
 		38EDBF8D2C1D1E5800F15D11 /* CommentWriteLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDBF8C2C1D1E5800F15D11 /* CommentWriteLayout.swift */; };
 		38EDBF8F2C1D1E7900F15D11 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDBF8E2C1D1E7900F15D11 /* CommentView.swift */; };
+
 		DFA0CB112C1D206500E122B0 /* NetworkFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA0CB102C1D206500E122B0 /* NetworkFile.swift */; };
 		DFA0CB132C1D21DF00E122B0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA0CB122C1D21DF00E122B0 /* LoginView.swift */; };
 		DFA0CB162C1D2E4200E122B0 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA0CB152C1D2E4200E122B0 /* Color.swift */; };
@@ -26,6 +27,7 @@
 		DFFA98442C1D19ED00F14366 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA98432C1D19ED00F14366 /* LoginResponse.swift */; };
 		DFFA98462C1D19F700F14366 /* LoginRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA98452C1D19F700F14366 /* LoginRequestBody.swift */; };
 		DFFA98482C1D1A0200F14366 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA98472C1D1A0200F14366 /* LoginService.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,7 @@
 		38EDBF692C1CC73D00F15D11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38EDBF8C2C1D1E5800F15D11 /* CommentWriteLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentWriteLayout.swift; sourceTree = "<group>"; };
 		38EDBF8E2C1D1E7900F15D11 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
+
 		DFA0CB102C1D206500E122B0 /* NetworkFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFile.swift; sourceTree = "<group>"; };
 		DFA0CB122C1D21DF00E122B0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DFA0CB152C1D2E4200E122B0 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -50,6 +53,7 @@
 		DFFA98432C1D19ED00F14366 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		DFFA98452C1D19F700F14366 /* LoginRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestBody.swift; sourceTree = "<group>"; };
 		DFFA98472C1D1A0200F14366 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				DFA0CB142C1D2D6D00E122B0 /* Login */,
 				38EDBF662C1CC73D00F15D11 /* Assets.xcassets */,
 				38EDBF682C1CC73D00F15D11 /* Preview Content */,
+				38EDBF8C2C1D1E5800F15D11 /* CommentWriteLayout.swift */,
+				38EDBF8E2C1D1E7900F15D11 /* CommentView.swift */,
 			);
 			path = WorkLife;
 			sourceTree = "<group>";
@@ -211,11 +217,15 @@
 				DFFA98462C1D19F700F14366 /* LoginRequestBody.swift in Sources */,
 				DFA0CB1B2C1D2E8400E122B0 /* Image.swift in Sources */,
 				24144C812C1CDB2400401867 /* PictureDiaryView.swift in Sources */,
+
 				DFA0CB162C1D2E4200E122B0 /* Color.swift in Sources */,
 				DFA0CB192C1D2E6F00E122B0 /* Font.swift in Sources */,
 				DFA0CB1D2C1D2EA300E122B0 /* CommunityVIew.swift in Sources */,
 				38EDBF8F2C1D1E7900F15D11 /* CommentView.swift in Sources */,
 				DFA0CB132C1D21DF00E122B0 /* LoginView.swift in Sources */,
+
+				38EDBF8F2C1D1E7900F15D11 /* CommentView.swift in Sources */,
+
 				38EDBF8D2C1D1E5800F15D11 /* CommentWriteLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
