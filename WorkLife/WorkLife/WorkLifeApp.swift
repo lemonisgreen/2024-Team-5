@@ -11,7 +11,7 @@ import SwiftUI
 struct WorkLifeApp: App {
     var body: some Scene {
         WindowGroup {
-            PictureDiaryView()
+            LoginView(colorCode: 2)
         }
     }
 }

@@ -27,7 +27,7 @@ class LoginService {
     
     func makeRequest(body: Data?) -> URLRequest {
         
-        let url = URL(string: "localhost:8000/login")!
+        let url = URL(string: "http://localhost:8000/login")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
         let header = ["Content-Type": "application/json"]
@@ -58,6 +58,7 @@ class LoginService {
             
             let decodedResponse = try JSONDecoder().decode(LoginResponse.self, from: data)
             return decodedResponse.value
+
             
         } catch {
             print("에러세요: \(error)")
