@@ -12,6 +12,10 @@
 		38EDBF652C1CC73C00F15D11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38EDBF642C1CC73C00F15D11 /* ContentView.swift */; };
 		38EDBF672C1CC73D00F15D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EDBF662C1CC73D00F15D11 /* Assets.xcassets */; };
 		38EDBF6A2C1CC73D00F15D11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38EDBF692C1CC73D00F15D11 /* Preview Assets.xcassets */; };
+		DFA0CB112C1D206500E122B0 /* NetworkFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA0CB102C1D206500E122B0 /* NetworkFile.swift */; };
+		DFFA98442C1D19ED00F14366 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA98432C1D19ED00F14366 /* LoginResponse.swift */; };
+		DFFA98462C1D19F700F14366 /* LoginRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA98452C1D19F700F14366 /* LoginRequestBody.swift */; };
+		DFFA98482C1D1A0200F14366 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFA98472C1D1A0200F14366 /* LoginService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		38EDBF642C1CC73C00F15D11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38EDBF662C1CC73D00F15D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38EDBF692C1CC73D00F15D11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFA0CB102C1D206500E122B0 /* NetworkFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFile.swift; sourceTree = "<group>"; };
+		DFFA98432C1D19ED00F14366 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		DFFA98452C1D19F700F14366 /* LoginRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestBody.swift; sourceTree = "<group>"; };
+		DFFA98472C1D1A0200F14366 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				24144C7F2C1CDB1100401867 /* PictureDiaryView */,
 				38EDBF622C1CC73C00F15D11 /* WorkLifeApp.swift */,
 				38EDBF642C1CC73C00F15D11 /* ContentView.swift */,
+				DFFA98432C1D19ED00F14366 /* LoginResponse.swift */,
+				DFFA98452C1D19F700F14366 /* LoginRequestBody.swift */,
+				DFFA98472C1D1A0200F14366 /* LoginService.swift */,
+				DFA0CB102C1D206500E122B0 /* NetworkFile.swift */,
 				38EDBF662C1CC73D00F15D11 /* Assets.xcassets */,
 				38EDBF682C1CC73D00F15D11 /* Preview Content */,
 			);
@@ -151,7 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				38EDBF652C1CC73C00F15D11 /* ContentView.swift in Sources */,
+				DFA0CB112C1D206500E122B0 /* NetworkFile.swift in Sources */,
+				DFFA98482C1D1A0200F14366 /* LoginService.swift in Sources */,
 				38EDBF632C1CC73C00F15D11 /* WorkLifeApp.swift in Sources */,
+				DFFA98442C1D19ED00F14366 /* LoginResponse.swift in Sources */,
+				DFFA98462C1D19F700F14366 /* LoginRequestBody.swift in Sources */,
 				24144C812C1CDB2400401867 /* PictureDiaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
