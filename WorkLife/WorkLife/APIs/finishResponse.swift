@@ -1,8 +1,8 @@
 import Foundation
 
-struct DiaryInfo: Codable {
+struct finishResponse: Codable {
     
-    let id: UUID
+    let id: String
     let color: Int
     let date: String
     let weather: Int
