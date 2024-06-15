@@ -6,6 +6,20 @@
 	<dict>
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key> NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>UhBeemysen.ttf</string>
+		<string>UhBeemysenBold.ttf</string>
+		<string>UhBeeZZIBA-Regular.ttf</string>
+	</array>
 </dict>
 </plist>
